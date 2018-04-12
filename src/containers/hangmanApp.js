@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Hangman from './../games/hangmanLogic';
-import UserGuess from './../components/Hangman/UserGuess';
-import Result from './../components/Hangman/Result';
+import UserGuess from './../components/hangman/UserGuess';
+import Result from './../components/hangman/Result';
 
 
 class App extends Component {

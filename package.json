@@ -1,7 +1,7 @@
 {
   "name": "IDF-react-components",
   "version": "0.0.1",
-  "description": "React js",
+  "description": "React",
   "repository": "",
   "author": "ivan",
   "license": "MIT",
@@ -30,16 +30,17 @@
     "webpack-dev-server": "^2.11.2"
   },
   "dependencies": {
+    "file-loader": "^1.1.11",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "url-loader": "^1.0.1"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "build:watch": "webpack --config webpack.config.js --watch",
     "start": "webpack-dev-server --open --config webpack.config.js",
     "lint": "eslint src/ test/",
-    "prestart": "yarn lint",
     "test": "mocha",
     "test:debug": "mocha --inspect-brk",
     "test:watch": "mocha --watch"
