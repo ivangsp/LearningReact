@@ -1,0 +1,76 @@
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app .games {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+  border-style: groove;
+  border-width: 1px;
+}
+
+.game p {
+  font-size: 2em;
+}
+
+.game input {
+  font-size: 4em;
+  text-align: center;
+}
+
+.move-history .move-list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.move.win {
+  color: green;
+}
+
+.move.loss {
+  color: red;
+}
+
+.move.tie {
+  color: orange;
+}
+
+.game.hangman .play-area p {
+  display: inline;
+}
+
+.game.hangman input {
+  width: 1em;
+  font-size: 2em;
+}
+
+.game.hangman .letters {
+  font-size: 4em;
+}
