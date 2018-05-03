@@ -1,0 +1,13 @@
+node_modules/
+public/app.*
+public/*.js
+public/*.css
+yarn-error.log
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+ziphomework.js
+.idea/
+
