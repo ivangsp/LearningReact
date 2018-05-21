@@ -3,7 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: {
-    'app.js': './src/index.js',
+    'app.js': './src/gameReducer.js',
     'app.css': './css/index.css'
   },
   output: {

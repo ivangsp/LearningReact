@@ -1,0 +1,49 @@
+{
+  "name": "game_lobby",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "archiver": "^2.1.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-enzyme": "^1.0.0-beta",
+    "css-loader": "^0.28.10",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.18.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mocha": "^5.0.1",
+    "sinon": "^4.5.0",
+    "sinon-chai": "^3.0.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:watch": "webpack --config webpack.config.js --watch",
+    "start": "webpack-dev-server --open --config webpack.config.js",
+    "lint": "eslint src/ test/",
+    "test": "mocha",
+    "pretest": "yarn lint ",
+    "prestart": "yarn lint",
+    "test:watch": "mocha --watch"
+  }
+}

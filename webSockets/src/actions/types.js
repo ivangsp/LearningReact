@@ -1,0 +1,9 @@
+export const ADD_USER_ID = 'connection:accepted';
+export const ADD_USERS = 'online-players';
+export const CONNECTING = 'CONNECTING';
+export const CONNECT = 'CONNECT';
+export const CONNECTED = 'CONNECTED';
+export const DISCONECTED = 'DISCONECTED';
+export const ERROR_IN_CONNECTION = 'ERROR_IN_CONNECTION';
+export const DISCONNECT = 'DISCONNECT';
+export const USERNAME_EXISTS = 'USERNAME_EXISTS';
